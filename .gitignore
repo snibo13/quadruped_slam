@@ -1,0 +1,6 @@
+/build
+/devel
+/install
+/bagged_imu.csv
+.catkin_workspace
+*.bag
