@@ -1,0 +1,11 @@
+[33m[1mCMake Warning[0m at /home/rml/quadruped_slam/src/gtsam_bag/CMakeLists.txt:40 (add_executable):
+  Cannot generate a safe runtime search path for target gtsam_node because
+  files in some directories may conflict with libraries in implicit
+  directories:
+
+    runtime library [liblz4.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/rml/anaconda3/lib
+
+  Some of these libraries may not be found correctly.
+
+

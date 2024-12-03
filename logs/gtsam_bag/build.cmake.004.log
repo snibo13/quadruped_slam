@@ -1,0 +1,35 @@
+Not searching for unused variables given on the command line.
+[36m--[0m Using CATKIN_DEVEL_PREFIX: /home/rml/quadruped_slam/devel/.private/gtsam_bag
+[36m--[0m Using CMAKE_PREFIX_PATH: /home/rml/quadruped_slam/devel;/opt/ros/noetic
+[36m--[0m This workspace overlays: /home/rml/quadruped_slam/devel;/opt/ros/noetic
+[36m--[0m Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3")
+[36m--[0m Using PYTHON_EXECUTABLE: /usr/bin/python3
+[36m--[0m Using Debian Python package layout
+[36m--[0m Using empy: /usr/lib/python3/dist-packages/em.py
+[36m--[0m Using CATKIN_ENABLE_TESTING: ON
+[36m--[0m Call enable_testing()
+[36m--[0m Using CATKIN_TEST_RESULTS_DIR: /home/rml/quadruped_slam/build/gtsam_bag/test_results
+[36m--[0m Forcing gtest/gmock from source, though one was otherwise available.
+[36m--[0m Found gtest sources under '/usr/src/googletest': gtests will be built
+[36m--[0m Found gmock sources under '/usr/src/googletest': gmock will be built
+[36m--[0m Found PythonInterp: /usr/bin/python3 (found version "3.8.10")
+[36m--[0m Using Python nosetests: /usr/bin/nosetests3
+[36m--[0m catkin 0.8.10
+[36m--[0m BUILD_SHARED_LIBS is on
+[36m--[0m Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[36m--[0m GTSAM include directory:  /usr/local/lib/cmake/GTSAM/../../../include
+[36m--[0m Found GTSAM 4.2.0
+[36m--[0m Configuring done
+[33m[1mCMake Warning[0m at /home/rml/quadruped_slam/src/gtsam_bag/CMakeLists.txt:40 (add_executable):
+  Cannot generate a safe runtime search path for target gtsam_node because
+  files in some directories may conflict with libraries in implicit
+  directories:
+
+    runtime library [liblz4.so.1] in /usr/lib/x86_64-linux-gnu may be hidden by files in:
+      /home/rml/anaconda3/lib
+
+  Some of these libraries may not be found correctly.
+
+
+[36m--[0m Generating done
+[36m--[0m Build files have been written to: /home/rml/quadruped_slam/build/gtsam_bag

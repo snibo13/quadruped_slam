@@ -1,0 +1,22 @@
+<launch>
+    <!-- Play the bag file -->
+    <node 
+        pkg="rosbag" 
+        type="play" 
+        name="rosbag_play" 
+        args="--clock /home/rml/quadruped_slam/src/gtsam_bag/dataset/core_2023-02-18-19-52-32_2.bag" />
+
+    <!-- Launch RViz with a specific config -->
+    <node 
+        pkg="rviz" 
+        type="rviz" 
+        name="rviz" 
+        args="-d /home/rml/quadruped_slam/src/gtsam_bag/rviz/superodom_rviz.rviz" />
+
+    <!-- Launch the factor graph node -->
+    <node 
+       pkg="gtsam_bag" 
+        type="gtsam_node" 
+        name="gtsam_node" 
+        output="screen" />
+</launch>

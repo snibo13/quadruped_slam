@@ -1,0 +1,17 @@
+In file included from [01m[K/home/rml/anaconda3/include/boost/smart_ptr/detail/requires_cxx11.hpp:9[m[K,
+                 from [01m[K/home/rml/anaconda3/include/boost/smart_ptr/shared_ptr.hpp:17[m[K,
+                 from [01m[K/home/rml/anaconda3/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/forwards.h:37[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/common.h:37[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/ros.h:43[m[K,
+                 from [01m[K/home/rml/quadruped_slam/src/gtsam_bag/src/gtsam_node.cpp:1[m[K:
+[01m[K/home/rml/anaconda3/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+   36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rml/quadruped_slam/src/gtsam_bag/src/gtsam_node.cpp:[m[K In constructor ‘[01m[KFactorGraphNode::FactorGraphNode()[m[K’:
+[01m[K/home/rml/quadruped_slam/src/gtsam_bag/src/gtsam_node.cpp:45:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kestimated_trajectory_pub_[m[K’ was not declared in this scope
+   45 |             [01;31m[Kestimated_trajectory_pub_[m[K = nh_.advertise<nav_msgs::Odometry>("/estimated_trajectory", 1000);
+      |             [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/gtsam_node.dir/build.make:63: CMakeFiles/gtsam_node.dir/src/gtsam_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:185: CMakeFiles/gtsam_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

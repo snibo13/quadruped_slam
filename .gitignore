@@ -4,3 +4,4 @@
 /bagged_imu.csv
 .catkin_workspace
 *.bag
+*.csv

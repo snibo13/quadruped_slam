@@ -1,0 +1,13 @@
+[31m[1mCMake Error[0m at /opt/ros/noetic/share/catkin/cmake/safe_execute_process.cmake:11 (message):
+  execute_process(/usr/bin/python3clear
+  "/opt/ros/noetic/share/catkin/cmake/parse_package_xml.py"
+  "/opt/ros/noetic/share/catkin/cmake/../package.xml"
+  "/home/rml/quadruped_slam/build/gtsam_bag/catkin/catkin_generated/version/package.cmake")
+  returned error code No such file or directory
+[36mCall Stack (most recent call first):[0m
+  /opt/ros/noetic/share/catkin/cmake/catkin_package_xml.cmake:74 (safe_execute_process)
+  /opt/ros/noetic/share/catkin/cmake/all.cmake:168 (_catkin_package_xml)
+  /opt/ros/noetic/share/catkin/cmake/catkinConfig.cmake:20 (include)
+  CMakeLists.txt:8 (find_package)
+
+

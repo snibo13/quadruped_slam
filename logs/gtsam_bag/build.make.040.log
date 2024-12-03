@@ -1,0 +1,18 @@
+[35m[1mScanning dependencies of target gtsam_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/gtsam_node.dir/src/gtsam_node.cpp.o[0m
+In file included from [01m[K/home/rml/anaconda3/include/boost/smart_ptr/detail/requires_cxx11.hpp:9[m[K,
+                 from [01m[K/home/rml/anaconda3/include/boost/smart_ptr/shared_ptr.hpp:17[m[K,
+                 from [01m[K/home/rml/anaconda3/include/boost/shared_ptr.hpp:17[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/forwards.h:37[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/common.h:37[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/ros.h:43[m[K,
+                 from [01m[K/home/rml/quadruped_slam/src/gtsam_bag/src/gtsam_node.cpp:1[m[K:
+[01m[K/home/rml/anaconda3/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+   36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[100%] [32m[1mLinking CXX executable /home/rml/quadruped_slam/devel/.private/gtsam_bag/lib/gtsam_bag/gtsam_node[0m
+/usr/bin/ld: warning: libboost_thread.so.1.71.0, needed by /opt/ros/noetic/lib/libroscpp.so, may conflict with libboost_thread.so.1.82.0
+/usr/bin/ld: warning: libboost_filesystem.so.1.71.0, needed by /opt/ros/noetic/lib/libroscpp.so, may conflict with libboost_filesystem.so.1.82.0
+/usr/bin/ld: warning: libboost_serialization.so.1.71.0, needed by /usr/local/lib/libgtsam.so.4.2.0, may conflict with libboost_serialization.so.1.82.0
+/usr/bin/ld: warning: libboost_timer.so.1.71.0, needed by /usr/local/lib/libgtsam.so.4.2.0, may conflict with libboost_timer.so.1.82.0
+[100%] Built target gtsam_node

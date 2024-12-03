@@ -56,6 +56,7 @@ boost::shared_ptr<PreintegratedCombinedMeasurements::Params> imuParams() {
 
   return p;
 }
+
 int main(int argc, char** argv)
 {
 
@@ -127,7 +128,7 @@ int main(int argc, char** argv)
 
     for(rosbag::MessageInstance const m: rosbag::View(bag))
     {
-        if (m.getTopic() == "/dvs/imu")
+        if (m.getTopic() == "/camera/imu")
         {
             // imuMessages.push_back(m);
             sensor_msgs::Imu::ConstPtr imu = m.instantiate<sensor_msgs::Imu>();
